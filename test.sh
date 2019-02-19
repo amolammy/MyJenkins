@@ -1,2 +1,2 @@
 #!/bin/bash
- echo 'amol test'
+ python -m pytest
