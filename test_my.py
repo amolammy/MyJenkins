@@ -1,6 +1,6 @@
 import pytest
-from base_test import maths
-obj = maths(a=23, b=26)
+from base_test import mymaths
+obj = mymaths(a=23, b=26)
 
 @pytest.mark.run(order=1)
 def test_1d():
