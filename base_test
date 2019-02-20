@@ -1,4 +1,4 @@
-class maths():
+class mymaths():
 
     def __init__(self, a, b):
         self.a = a
