@@ -1,6 +1,3 @@
 #!/bin/bash
-cd /home/oss
-source pyenv/bin/activate
-pwd
-cd /var/lib/jenkins/workspace/test_project
+source /home/oss/pyenv/bin/activate
 python -m py.test -v -s
